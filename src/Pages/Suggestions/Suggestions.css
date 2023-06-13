@@ -3,11 +3,19 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 15px;
+  border-left: 1px solid black;
 }
 .suggestions-latest {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+.suggestions-latest button {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: skyblue;
 }
 .user-suggestion {
   display: flex;
