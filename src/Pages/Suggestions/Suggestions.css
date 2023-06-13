@@ -1,0 +1,20 @@
+.suggestions {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.suggestions-latest {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.user-suggestion {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+.user-suggestion-name {
+  display: flex;
+  justify-content: space-between;
+}
