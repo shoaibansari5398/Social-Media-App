@@ -2,17 +2,24 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { BrowserRouter as Router } from "react-router-dom";
+import AuthProvider from "./Context/AuthContext";
+import DataProvider from "./Context/DataContext";
+
 // import reportWebVitals from "./reportWebVitals";
-// import { makeServer } from "./server";
+import { makeServer } from "./server";
 
 // Call make Server
-// makeServer();
+makeServer();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <AuthProvider>
+        <DataProvider>
+          <App />
+        </DataProvider>
+      </AuthProvider>
     </Router>
   </React.StrictMode>
 );
