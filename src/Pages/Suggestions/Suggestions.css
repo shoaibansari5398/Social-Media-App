@@ -1,5 +1,4 @@
 .suggestions {
-  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -20,9 +19,16 @@
 .user-suggestion {
   display: flex;
   gap: 5px;
-  justify-content: space-around;
+  justify-content: center;
 }
 .user-suggestion-name {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: -webkit-fill-available;
+}
+.user-suggestion-name div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
