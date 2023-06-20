@@ -1,9 +1,10 @@
 import "./Content.css";
+import Card from "../../Components/Card/Card";
 
 export default function Content() {
   return (
     <div className="content">
-      <h1>Content</h1>
+      <Card />
     </div>
   );
 }

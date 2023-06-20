@@ -1,0 +1,32 @@
+.container {
+  box-shadow: 0 0 5px 2px #aaa;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  /* box-shadow: 0 0 5px 2 px #ccc; */
+  /* width: 500px; */
+  /* border: 1px solid black; */
+  /* margin: 20px auto; */
+}
+.card-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+img {
+  max-width: 500px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
